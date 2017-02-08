@@ -30,3 +30,11 @@ you can shoot bullets and destroy them don't always feel like you have to move
 out of the way all the time
 
 
+if i could redo the assignment what would i do :
+i would incorporate i menu in the game this is the only think i would 
+add in if i could redo the assignment as i ran out of time towards the 
+end it would have made the assignment way more aesthetically pleasing 
+
+
+
+
