@@ -18,10 +18,9 @@ int aliensDead,level,d,m,reset,reset1;
 
 void setup() {
   background(0);
-  menu=true;
   size(700, 700);    
   menuimage = loadImage("menu.jpg");
-  mainMenu();
+ // mainMenu();
   thePlayer = new Player(WIDTH-10-15);
   d=0;
   m=0;
@@ -29,6 +28,7 @@ void setup() {
   reset1=0;
   invaders = new int[120];
   finalscore=0;
+  mainMenu();
   for(int i=0;i< 120; i++)
   {
     invaders[i]=0;
@@ -126,9 +126,11 @@ if(d==0)
       text("Game Over", 170, 250);
     text(finalscore,312,251);
     text("final score :",248,250);
-    text("press any key to restart",302,302);
+    text("press any key to return to the main menu",302,302);
     if(keyPressed == true)
   {
+    menu=true;
+    mainMenu();
     reset();
   }
       

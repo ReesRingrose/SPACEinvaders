@@ -1,14 +1,16 @@
 void mainMenu()
 {
-   image(menuimage, 0, 0);
-   menuimage.resize(708, 700);
-  while(menu==true)
+  
+  do 
   {
     
-    
-  
-   
-   textSize(50);
-   text("press any key to start",238,470);
+    image(menuimage, 0, 0);
+   menuimage.resize(700, 700);
+    if(keyPressed == true)
+  {
+    menu=false;
   }
+
+  }
+  while(menu==true);
 }
