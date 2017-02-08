@@ -35,6 +35,11 @@ i would incorporate i menu in the game this is the only think i would
 add in if i could redo the assignment as i ran out of time towards the 
 end it would have made the assignment way more aesthetically pleasing 
 
+i would have also put in more commits to my git because i did most of my 
+assignment at my dads house and he doesn't have internet 
 
+
+
+youtube video :
 
 
