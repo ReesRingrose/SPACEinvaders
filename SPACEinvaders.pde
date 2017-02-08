@@ -11,7 +11,7 @@ Player thePlayer;
 ArrayList<Bullet> bullets; 
 boolean canShoot;
 int finished;
-PFont font;
+
 boolean playerNotHit = true;
 int aliensDead,level,d,m;
 
@@ -29,8 +29,7 @@ void setup() {
   myimage = loadImage("invader.GIF");
   myimage2 = loadImage("exploding.GIF");
   Spaceship = loadImage("Spaceship.png");
-  
-
+ 
 
 for(int i =0;i<120;i++)
 {
@@ -118,7 +117,7 @@ if(d==0)
       
 
       text("Game Over", 170, 250);
-    text("",finalscore,180,260);
+ //   text("",finalscore,180,260);
       
     }
   }
