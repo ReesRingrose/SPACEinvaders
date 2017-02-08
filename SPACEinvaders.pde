@@ -117,7 +117,8 @@ if(d==0)
       
 
       text("Game Over", 170, 250);
- //   text("",finalscore,180,260);
+    text(finalscore,312,251);
+    text("final score :",248,250);
       
     }
   }
