@@ -2,7 +2,7 @@ int x, y,interval;
 PImage myimage;
 PImage myimage2;
 PImage Spaceship;
-PImage menuimage;
+
 
 int[] invaders;
 int finalscore;
@@ -129,8 +129,11 @@ if(d==0)
     text("press any key to return to restart the game",302,302);
     if(keyPressed == true)
   {
-   
+
+     
     reset();
+ 
+
   }
       
     }
