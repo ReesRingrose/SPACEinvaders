@@ -64,7 +64,7 @@ class Aliens {
       image(myimage2, xpos, ypos);
      
       
-    // aliensDead++;
+   
     }
   }
 
@@ -72,7 +72,7 @@ class Aliens {
 
     explode = true;
     hasBomb = false;
-  //aliensDead++;
+ 
   lives();
     finished++;
     

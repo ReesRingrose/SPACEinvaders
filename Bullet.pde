@@ -26,7 +26,7 @@ class Bullet {
          
         invaders[i]=1;
         alienArray[i].explode();
-      // aliensDead++;
+      
        
       }
     }
