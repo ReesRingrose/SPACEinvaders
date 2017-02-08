@@ -2,8 +2,7 @@ int x, y,interval;
 PImage myimage;
 PImage myimage2;
 PImage Spaceship;
-PImage Stars;
-PImage Bomb;
+
 int[] invaders;
 int finalscore;
 Bomb bomb;
