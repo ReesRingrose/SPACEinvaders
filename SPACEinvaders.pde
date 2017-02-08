@@ -2,7 +2,7 @@ int x, y,interval;
 PImage myimage;
 PImage myimage2;
 PImage Spaceship;
-
+boolean menu;
 int[] invaders;
 int finalscore;
 Bomb bomb;
@@ -16,6 +16,7 @@ boolean playerNotHit = true;
 int aliensDead,level,d,m,reset,reset1;
 
 void setup() {
+  mainMenu();
   size(700, 700);        
   thePlayer = new Player(WIDTH-10-15);
   d=0;
