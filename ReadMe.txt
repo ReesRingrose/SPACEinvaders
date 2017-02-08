@@ -20,3 +20,8 @@ secondly you can click your mouse to shoot bullets at the aliens if an alien
 is hit with a bullet it explodes 
 
 if you get hit with a bomb you die and so avoid the bombs at all time 
+
+
+
+
+
