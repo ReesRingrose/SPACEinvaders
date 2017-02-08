@@ -22,6 +22,11 @@ is hit with a bullet it explodes
 if you get hit with a bomb you die and so avoid the bombs at all time 
 
 
+tips: be careful when you kill all the aliens because they will apear automatically
+and very quickly if you are not ready you could be trapped under a wall of bullets
+and die 
 
+you can shoot bullets and destroy them don't always feel like you have to move
+out of the way all the time
 
 
