@@ -14,12 +14,13 @@ boolean canShoot;
 int finished;
 PFont font;
 boolean playerNotHit = true;
-int aliensDead,level,d;
+int aliensDead,level,d,m;
 
 void setup() {
   size(700, 700);        
   thePlayer = new Player(WIDTH-10-15);
   d=0;
+  m=0;
   invaders = new int[120];
   finalscore=0;
   for(int i=0;i< 120; i++)
@@ -100,14 +101,22 @@ if(d==0)
         }
       }
     } else {  
-      for(int i=0; i<120;i++)
+      if(m==0)
+      {
+        
+        for(int i=0; i<120;i++)
     {
       if(invaders[i]==1)
       {
-        finalscore++;
+        aliensDead++;
         
       }
     }
+    finalscore=finalscore+aliensDead;
+    m++;
+      
+      }
+      
 
       text("Game Over", 170, 250);
     println("",finalscore);
