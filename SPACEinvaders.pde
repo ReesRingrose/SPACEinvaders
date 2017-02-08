@@ -2,6 +2,7 @@ int x, y,interval;
 PImage myimage;
 PImage myimage2;
 PImage Spaceship;
+PImage menuimage;
 boolean menu;
 int[] invaders;
 int finalscore;
@@ -16,8 +17,11 @@ boolean playerNotHit = true;
 int aliensDead,level,d,m,reset,reset1;
 
 void setup() {
+  background(0);
+  menu=true;
+  size(700, 700);    
+  menuimage = loadImage("menu.jpg");
   mainMenu();
-  size(700, 700);        
   thePlayer = new Player(WIDTH-10-15);
   d=0;
   m=0;
