@@ -121,8 +121,11 @@ if(d==0)
       text("Game Over", 170, 250);
     text(finalscore,312,251);
     text("final score :",248,250);
-    reset=1;
-    
+    text("press any key to restart",302,302);
+    if(keyPressed == true)
+  {
+    reset();
+  }
       
     }
   }
@@ -134,8 +137,6 @@ void mousePressed() {
   canShoot = true;
   bullets.add( new Bullet(thePlayer.xpos, thePlayer.ypos));
   
-  if(reset==1)
-  {
-   reset();
-  }
+  
+ 
 }
