@@ -13,13 +13,15 @@ boolean canShoot;
 int finished;
 
 boolean playerNotHit = true;
-int aliensDead,level,d,m;
+int aliensDead,level,d,m,reset,reset1;
 
 void setup() {
   size(700, 700);        
   thePlayer = new Player(WIDTH-10-15);
   d=0;
   m=0;
+  reset=0;
+  reset1=0;
   invaders = new int[120];
   finalscore=0;
   for(int i=0;i< 120; i++)
@@ -119,13 +121,21 @@ if(d==0)
       text("Game Over", 170, 250);
     text(finalscore,312,251);
     text("final score :",248,250);
+    reset=1;
+    
       
     }
   }
 }
 
+
 void mousePressed() {
 
   canShoot = true;
   bullets.add( new Bullet(thePlayer.xpos, thePlayer.ypos));
+  
+  if(reset==1)
+  {
+   reset();
+  }
 }
